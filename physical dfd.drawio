@@ -1,0 +1,167 @@
+<mxfile host="65bd71144e">
+    <diagram id="-H3OYzDlhp1lFIjLVvzU" name="Page-1">
+        <mxGraphModel dx="884" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="User" style="whiteSpace=wrap;html=1;align=center;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Register" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="0.2522" y="3" relative="1" as="geometry">
+                        <mxPoint x="16" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Access" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="180" y="30" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Access website by&lt;br style=&quot;font-size: 13px;&quot;&gt;URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="3" vertex="1">
+                    <mxGeometry x="20" y="40" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Access" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="110" y="40" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="7" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="655" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Login" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="390" y="30" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Login to the&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;website" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="7" vertex="1">
+                    <mxGeometry x="30" y="40" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="325" y="60" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="175" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Register" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="395" y="150" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Register to the&lt;br style=&quot;font-size: 13px;&quot;&gt;website" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="11" vertex="1">
+                    <mxGeometry x="25" y="40" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Authorized user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="545" y="60" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Store info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rotation=-10;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="535" y="160" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.557;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="22" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="User Database" style="whiteSpace=wrap;html=1;align=center;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="620" y="140" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0.133;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="140" as="sourcePoint"/>
+                        <mxPoint x="510" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0.133;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="750.05" y="140" as="sourcePoint"/>
+                        <mxPoint x="750" y="181" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="27" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Adds Selected &lt;br style=&quot;font-size: 13px;&quot;&gt;product to&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;the cart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="33" vertex="1" connectable="0">
+                    <mxGeometry x="0.5857" y="5" relative="1" as="geometry">
+                        <mxPoint x="37" y="20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="View Product" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="620" y="280" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="See Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="27" vertex="1">
+                    <mxGeometry x="35" y="50" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Verfied user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="690" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="31" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="finalizes&lt;br style=&quot;font-size: 13px;&quot;&gt;and&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;checkout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="37" vertex="1" connectable="0">
+                    <mxGeometry x="0.4286" y="4" relative="1" as="geometry">
+                        <mxPoint x="10" y="21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Cart" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="370" y="280" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Adds the product&lt;br&gt;&amp;nbsp;to cart" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="31" vertex="1">
+                    <mxGeometry x="20" y="40" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" source="35" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Checkout" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="160" y="280" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Buys the product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="35" vertex="1">
+                    <mxGeometry x="20" y="50" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Orders" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="160" y="460" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Check the status&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;of the ordered&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" parent="39" vertex="1">
+                    <mxGeometry x="20" y="35" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Checks order status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="225" y="410" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontStyle=1;fontFamily=Times New Roman;" edge="1" parent="1" source="43" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Admin" style="whiteSpace=wrap;html=1;align=center;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="490" y="500" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fontStyle=1;fontFamily=Times New Roman;" edge="1" parent="1" source="44" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="Add Product" style="swimlane;fontFamily=Times New Roman;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="690" y="480" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Adds Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;fontStyle=1" vertex="1" parent="44">
+                    <mxGeometry x="30" y="50" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Adds Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="500" width="90" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
